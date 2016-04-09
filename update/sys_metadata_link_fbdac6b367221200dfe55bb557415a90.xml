@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>efe9c2b367221200dfe55bb557415a30</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="x_airstat_rule">
+    <x_airstat_rule action="INSERT_OR_UPDATE">
+        <number>RUL0001001</number>
+        <order>100</order>
+        <status>Silver</status>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-04-09 21:57:22</sys_created_on>
+        <sys_id>efe9c2b367221200dfe55bb557415a30</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-04-09 21:57:50</sys_updated_on>
+    </x_airstat_rule>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-04-09 22:01:19</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>fbdac6b367221200dfe55bb557415a90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>RUL0001001</sys_name>
+        <sys_package display_value="Airline Status" source="x_airstat">2a27342167021200806f5bb557415ad6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Airline Status">2a27342167021200806f5bb557415ad6</sys_scope>
+        <sys_update_name>sys_metadata_link_fbdac6b367221200dfe55bb557415a90</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-04-09 22:01:19</sys_updated_on>
+        <tablename>x_airstat_rule</tablename>
+    </sys_metadata_link>
+</record_update>

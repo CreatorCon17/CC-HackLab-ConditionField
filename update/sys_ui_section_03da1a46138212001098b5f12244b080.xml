@@ -1,17 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
     <sys_ui_section caption="" section_id="03da1a46138212001098b5f12244b080" sys_domain="global" table="x_airstat_rule" version="3" view="">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-04-09 22:00:08</sys_created_on>
+            <sys_id>629a86b367221200dfe55bb557415ac6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-04-09 22:00:08</sys_updated_on>
+            <text>Use this form to configure the requirements to attain the status level indicated here. For example, to attain Silver status, Miles &gt;= 25,000 AND Status is --None--, set the Status field to Silver and the condition as desired.</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>fff91646138212001098b5f12244b045</element>
+            <element>629a86b367221200dfe55bb557415ac6</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2016-03-10 16:06:57</sys_created_on>
-            <sys_id>2c1a1646138212001098b5f12244b0a9</sys_id>
+            <sys_created_on>2016-04-09 22:00:08</sys_created_on>
+            <sys_id>a29a86b367221200dfe55bb557415ac6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_airstat_rule" sys_domain="global" view="Default view">03da1a46138212001098b5f12244b080</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2016-03-10 16:06:57</sys_updated_on>
+            <sys_updated_on>2016-04-09 22:00:08</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
@@ -19,13 +30,13 @@
             <element>.begin_split</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2016-03-10 16:06:57</sys_created_on>
-            <sys_id>6c1a1646138212001098b5f12244b0a9</sys_id>
+            <sys_created_on>2016-04-09 22:00:08</sys_created_on>
+            <sys_id>e29a86b367221200dfe55bb557415ac6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_airstat_rule" sys_domain="global" view="Default view">03da1a46138212001098b5f12244b080</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2016-03-10 16:06:57</sys_updated_on>
+            <sys_updated_on>2016-04-09 22:00:08</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
@@ -33,13 +44,13 @@
             <element>number</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2016-03-10 16:06:57</sys_created_on>
-            <sys_id>ac1a1646138212001098b5f12244b0a9</sys_id>
+            <sys_created_on>2016-04-09 22:00:08</sys_created_on>
+            <sys_id>269a86b367221200dfe55bb557415ac6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_airstat_rule" sys_domain="global" view="Default view">03da1a46138212001098b5f12244b080</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2016-03-10 16:06:57</sys_updated_on>
+            <sys_updated_on>2016-04-09 22:00:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -47,13 +58,13 @@
             <element>order</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2016-03-10 16:06:57</sys_created_on>
-            <sys_id>ec1a1646138212001098b5f12244b0a9</sys_id>
+            <sys_created_on>2016-04-09 22:00:08</sys_created_on>
+            <sys_id>669a86b367221200dfe55bb557415ac6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_airstat_rule" sys_domain="global" view="Default view">03da1a46138212001098b5f12244b080</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2016-03-10 16:06:57</sys_updated_on>
+            <sys_updated_on>2016-04-09 22:00:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -61,13 +72,13 @@
             <element>.split</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2016-03-10 16:06:57</sys_created_on>
-            <sys_id>201a1646138212001098b5f12244b0aa</sys_id>
+            <sys_created_on>2016-04-09 22:00:08</sys_created_on>
+            <sys_id>a69a86b367221200dfe55bb557415ac6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_airstat_rule" sys_domain="global" view="Default view">03da1a46138212001098b5f12244b080</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2016-03-10 16:06:57</sys_updated_on>
+            <sys_updated_on>2016-04-09 22:00:08</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -75,13 +86,13 @@
             <element>status</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2016-03-10 16:06:57</sys_created_on>
-            <sys_id>601a1646138212001098b5f12244b0aa</sys_id>
+            <sys_created_on>2016-04-09 22:00:08</sys_created_on>
+            <sys_id>e69a86b367221200dfe55bb557415ac6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_airstat_rule" sys_domain="global" view="Default view">03da1a46138212001098b5f12244b080</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2016-03-10 16:06:57</sys_updated_on>
+            <sys_updated_on>2016-04-09 22:00:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

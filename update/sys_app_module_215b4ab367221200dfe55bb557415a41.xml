@@ -12,35 +12,35 @@
         <image/>
         <link_type>LIST</link_type>
         <map_page/>
-        <mobile_title>Status</mobile_title>
+        <mobile_title>Scripts</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
-        <name>x_airstat_status</name>
-        <order>100</order>
+        <name>x_airstat_script</name>
+        <order>300</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
-        <roles>x_airstat_user</roles>
+        <roles>x_airstat_script_user</roles>
         <survey/>
         <survey_overwrite>true</survey_overwrite>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2016-03-08 19:40:01</sys_created_on>
+        <sys_created_on>2016-04-09 22:03:20</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>52a7382167021200806f5bb557415a4e</sys_id>
+        <sys_id>215b4ab367221200dfe55bb557415a41</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name>Status</sys_name>
+        <sys_name>Scripts</sys_name>
         <sys_overrides/>
         <sys_package display_value="Airline Status" source="x_airstat">2a27342167021200806f5bb557415ad6</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Airline Status">2a27342167021200806f5bb557415ad6</sys_scope>
-        <sys_update_name>sys_app_module_52a7382167021200806f5bb557415a4e</sys_update_name>
+        <sys_update_name>sys_app_module_215b4ab367221200dfe55bb557415a41</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2016-04-09 22:03:47</sys_updated_on>
+        <sys_updated_on>2016-04-09 22:03:52</sys_updated_on>
         <timeline_page/>
-        <title>Status</title>
+        <title>Scripts</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>f98b8ab367221200dfe55bb557415ac5</documentkey>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;record_update table="x_airstat_script"&gt;
+    &lt;x_airstat_script action="INSERT_OR_UPDATE"&gt;
+        &lt;name&gt;Check Status&lt;/name&gt;
+        &lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	var rule = new GlideRecord('x_airstat_rule');
+	
+	rule.addNotNullQuery('condition');
+	rule.orderBy('order');
+	rule.query();
+	
+	while (rule.next()) {
+		var match = GlideFilter.checkRecord(current, rule.condition);
+		gs.debug(rule.number + ' Status=' + rule.status + ' match=' + match);
+		if (match) {
+			current.status = rule.status;
+			gs.addInfoMessage(current.customer.getDisplayValue() + ' upgraded to ' + current.status);
+		}
+			
+	}
+})(current, previous);]]&gt;&lt;/script&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2016-04-09 22:04:40&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;f98b8ab367221200dfe55bb557415ac5&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2016-04-09 22:04:40&lt;/sys_updated_on&gt;
+    &lt;/x_airstat_script&gt;
+&lt;/record_update&gt;
+</payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-04-09 22:04:48</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>f2ab8ab367221200dfe55bb557415a4d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Check Status</sys_name>
+        <sys_package display_value="Airline Status" source="x_airstat">2a27342167021200806f5bb557415ad6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Airline Status">2a27342167021200806f5bb557415ad6</sys_scope>
+        <sys_update_name>sys_metadata_link_f2ab8ab367221200dfe55bb557415a4d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-04-09 22:04:48</sys_updated_on>
+        <tablename>x_airstat_script</tablename>
+    </sys_metadata_link>
+</record_update>
