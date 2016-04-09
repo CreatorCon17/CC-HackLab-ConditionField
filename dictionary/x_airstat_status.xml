@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Status" max_length="40" name="x_airstat_status" type="collection">
+        <element label="Customer" mandatory="true" max_length="32" name="customer" reference="sys_user" type="reference"/>
+        <element default="0" label="Miles" max_length="40" name="miles" type="integer"/>
+        <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element default="0" label="Points" max_length="40" name="points" type="integer"/>
+        <element choice="1" label="Status" max_length="40" name="status" read_only="true" type="choice">
+            <choice>
+                <element label="Silver" sequence="0" value="Silver"/>
+                <element label="Gold" sequence="1" value="Gold"/>
+                <element label="Platinum" sequence="2" value="Platinum"/>
+                <element label="Diamond" sequence="3" value="Diamond"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="customer"/>
+        </index>
+    </element>
+</database>

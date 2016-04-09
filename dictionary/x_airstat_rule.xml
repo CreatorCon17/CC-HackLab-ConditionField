@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Rule" max_length="40" name="x_airstat_rule" type="collection">
+        <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Order" max_length="40" name="order" type="integer"/>
+        <element choice="1" choice_field="status" choice_table="x_airstat_status" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element label="Silver" sequence="0" value="Silver"/>
+                <element label="Gold" sequence="1" value="Gold"/>
+                <element label="Platinum" sequence="2" value="Platinum"/>
+                <element label="Diamond" sequence="3" value="Diamond"/>
+            </choice>
+        </element>
+    </element>
+</database>

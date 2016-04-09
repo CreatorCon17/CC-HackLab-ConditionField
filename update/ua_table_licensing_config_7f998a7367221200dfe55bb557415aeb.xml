@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="ua_table_licensing_config">
+    <ua_table_licensing_config action="INSERT_OR_UPDATE">
+        <is_fulfillment>false</is_fulfillment>
+        <name>x_airstat_rule</name>
+        <owner_condition table="x_airstat_rule">sys_created_by=javascript:gs.getUserName()^EQ<item endquery="false" field="sys_created_by" goto="false" newquery="false" operator="=" or="false" value="javascript:gs.getUserName()"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </owner_condition>
+        <sys_class_name>ua_table_licensing_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-03-08 19:41:15</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>7f998a7367221200dfe55bb557415aeb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_airstat_rule</sys_name>
+        <sys_package display_value="Airline Status" source="x_airstat">2a27342167021200806f5bb557415ad6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Airline Status">2a27342167021200806f5bb557415ad6</sys_scope>
+        <sys_update_name>ua_table_licensing_config_7f998a7367221200dfe55bb557415aeb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-03-08 19:41:15</sys_updated_on>
+    </ua_table_licensing_config>
+</record_update>

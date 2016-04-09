@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>dc28b46167021200806f5bb557415a94</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="x_airstat_status">
+    <x_airstat_status action="INSERT_OR_UPDATE">
+        <customer display_value="Fred Luddy">5137153cc611227c000bbd1bd8cd2005</customer>
+        <miles>196850</miles>
+        <number>STA0001001</number>
+        <points>257890</points>
+        <status>Diamond</status>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-03-08 19:42:26</sys_created_on>
+        <sys_id>dc28b46167021200806f5bb557415a94</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-03-08 19:49:05</sys_updated_on>
+    </x_airstat_status>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-03-08 21:57:13</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>c417552913c212001098b5f12244b0c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>STA0001001</sys_name>
+        <sys_package display_value="Airline Status" source="x_airstat">2a27342167021200806f5bb557415ad6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Airline Status">2a27342167021200806f5bb557415ad6</sys_scope>
+        <sys_update_name>sys_metadata_link_c417552913c212001098b5f12244b0c2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-03-08 21:57:13</sys_updated_on>
+        <tablename>x_airstat_status</tablename>
+    </sys_metadata_link>
+</record_update>
