@@ -12,7 +12,7 @@
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-03-08 19:40:02</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>16a7382167021200806f5bb557415ada</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_airstat_status</sys_name>

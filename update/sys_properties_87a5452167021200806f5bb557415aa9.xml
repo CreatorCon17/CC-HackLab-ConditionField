@@ -11,7 +11,7 @@
         <sys_class_name>sys_properties</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-03-08 20:41:31</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>87a5452167021200806f5bb557415aa9</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_airstat.logging.verbosity</sys_name>

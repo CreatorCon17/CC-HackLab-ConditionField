@@ -12,7 +12,7 @@
         <sys_class_name>sys_user_role</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-04-09 22:03:19</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>d15b0ab367221200dfe55bb557415acc</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_airstat_script_user</sys_name>

@@ -8,7 +8,7 @@
         <sys_class_name>sys_number</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-03-08 19:41:15</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>5cf7782167021200806f5bb557415acb</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>RUL</sys_name>

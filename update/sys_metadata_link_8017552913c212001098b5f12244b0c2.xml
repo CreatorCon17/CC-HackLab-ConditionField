@@ -23,7 +23,7 @@
         <sys_class_name>sys_metadata_link</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-03-08 21:57:13</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>8017552913c212001098b5f12244b0c2</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>STA0001005</sys_name>
